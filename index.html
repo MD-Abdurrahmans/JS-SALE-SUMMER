@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summer Salse</title>   
+<link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://kit.fontawesome.com/5d6bdd41be.js" crossorigin="anonymous"></script>
+<!-- google font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+    *{
+        font-family: 'Work Sans', sans-serif;
+    }
+</style>
+</head>
+<body>
+ <header class=" bg-[#F9F6E2]">
+
+    <div class="container mx-auto flex flex-col  lg:flex-row justify-between items-center">
+<!-- text -->
+        <div class="text-center  space-y-16">
+            <p class="text-3xl font-semibold">---SALE FEVER---</p>
+            <h1 class="text-3xl md:text-6xl font-bold text-center">Purchase TK 200 or<br> above & get <span class="text-[#E527B2]">20% off</span></h1>
+         
+            <div class="mt-4">
+                <span class="text-2xl font-semibold mr-4">Use Promo Code</span><button class="btn bg-[#E527B2] font-semibold text-2xl text-center text-white">SELL200</button>
+            </div>
+        </div>
+        <!-- image -->
+        <div>
+            <img src="./images/Summer 1.png" alt="">
+        </div>
+    </div>
+ </header>   
+
+<main class=" bg-[#F8F8F8;]">
+
+
+    <div class="flex flex-col justify-center  lg:items-start lg:flex-row lg:justify-between container mx-auto">
+<!-- left -->
+
+        <div>
+
+            <!-- kitchen category  -->
+            <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+
+                <h1 class="text-4xl font-semibold mb-8">Kitchenware</h1>
+                <div class="grid gap-3 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 ">
+<!-- card1 -->
+                  <div class="overflow-hidden transition-shadow cursor-pointer   duration-300 h-96  bg-white rounded" onclick="cardHandler(this)">
+                    <div  class="bg-[#F8F8F8]  h-48  px-20 py-8 m-5 flex flex-col items-center">
+                        <img src="./images/prod1.png" class="" alt="" />
+
+
+                    </div>
+
+                    <div class="py-3 space-y-2 text-center">
+
+                        <div class="start text-[#FFC107] text-base">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                          
+                        </div>
+                        <h2 class="text-xl font-semibold">K. Accessories</h2>
+                      <p class="mb-2 text-xl font-normal text-[#11111180]">
+                        <span id="price"> 39.00 </span>TK
+                      </p>
+                     
+                   
+                   
+                    </div>
+                  </div>
+<!-- card2 -->
+                  <div class="overflow-hidden transition-shadow cursor-pointer  duration-300   h-96  bg-white rounded" onclick="cardHandler(this)">
+                    <div  class="bg-[#F8F8F8] h-48  px-20 py-8 m-5 flex flex-col items-center">
+                        <img src="./images/prod2.png" class="" alt="" />
+
+
+                    </div>
+
+                    <div class="py-3 space-y-2 text-center">
+
+                        <div class="start text-[#FFC107] text-base">
+                        
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                          
+                        </div>
+                        <h2 class="text-xl font-semibold">K. Accessories</h2>
+                      <p class="mb-2 text-xl font-normal text-[#11111180]">
+                        <span id="price"> 25.00  </span>TK
+                      </p>
+                     
+                   
+                   
+                    </div>
+                  </div>
+
+<!-- card3 -->
+                  <div class="overflow-hidden transition-shadow cursor-pointer  duration-300   h-96  bg-white rounded" onclick="cardHandler(this)">
+                    <div  class="bg-[#F8F8F8] h-48  px-20 py-8 m-5 flex flex-col items-center">
+                        <img src="./images/prod3.png" class="" alt="" />
+
+
+                    </div>
+
+                    <div class="py-3 space-y-2 text-center">
+
+                        <div class="start text-[#FFC107] text-base">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                          
+                        </div>
+                        <h2 class="text-xl font-semibold">Home Cooker</h2>
+                      <p class="mb-2 text-xl font-normal text-[#11111180]">
+                        <span id="price"> 49.00 </span>TK
+                      </p>
+                     
+                   
+                   
+                    </div>
+                  </div>
+
+
+
+                 
+                </div>
+              </div>
+
+            <!-- Sportswear category  -->
+            <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+
+                <h1 class="text-4xl font-semibold mb-8">Sportswear</h1>
+                <div class="grid gap-3 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 ">
+<!-- card1 -->
+                  <div class="overflow-hidden transition-shadow cursor-pointer  duration-300   h-96  bg-white rounded" onclick="cardHandler(this)">
+                    <div  class="bg-[#F8F8F8]  h-48  px-20 py-8 m-5 flex flex-col items-center">
+                        <img src="./images/prod4.png" class="" alt="" />
+
+
+                    </div>
+
+                    <div class="py-3 space-y-2 text-center">
+
+                        <div class="start text-[#FFC107] text-base">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                          
+                        </div>
+                        <h2 class="text-xl font-semibold">Sports Back Cap</h2>
+                      <p class="mb-2 text-xl font-normal text-[#11111180]">
+                        <span id="price"> 49.00 </span>TK
+                      </p>
+                     
+                   
+                   
+                    </div>
+                  </div>
+<!-- card2 -->
+                  <div class="overflow-hidden transition-shadow cursor-pointer  duration-300   h-96  bg-white rounded" onclick="cardHandler(this)">
+                    <div  class="bg-[#F8F8F8] h-48  px-20 py-8 m-5 flex flex-col items-center">
+                        <img src="./images/prod5.png" class="" alt="" />
+
+
+                    </div>
+
+                    <div class="py-3 space-y-2 text-center">
+
+                        <div class="start text-[#FFC107] text-base">
+                        
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                            <i class="fa-regular fa-star"></i>
+                          
+                        </div>
+                        <h2 class="text-xl font-semibold">Full Jersey Set</h2>
+                      <p class="mb-2 text-xl font-normal text-[#11111180]">
+                        <span id="price"> 69.00  </span>TK
+                      </p>
+                     
+                   
+                   
+                    </div>
+                  </div>
+
+<!-- card3 -->
+                  <div class="overflow-hidden transition-shadow cursor-pointer  duration-300   h-96  bg-white rounded" onclick="cardHandler(this)">
+                    <div  class="bg-[#F8F8F8] h-48  px-20 py-8 m-5 flex flex-col items-center">
+                        <img src="./images/prod6.png" class="" alt="" />
+
+
+                    </div>
+
+                    <div class="py-3 space-y-2 text-center">
+
+                        <div class="start text-[#FFC107] text-base">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                       
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                          
+                        </div>
+                        <h2 class="text-xl font-semibold">Sports cates</h2>
+                      <p class="mb-2 text-xl font-normal text-[#11111180]">
+                        <span id="price"> 159.00 </span>TK
+                      </p>
+                     
+                   
+                   
+                    </div>
+                  </div>
+
+
+
+                 
+                </div>
+              </div>
+
+
+
+            <!-- Furniture category  -->
+            <div class="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+
+                <h1 class="text-4xl font-semibold mb-8">Furniture</h1>
+                <div class="grid gap-3 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 ">
+<!-- card1 -->
+                  <div class="overflow-hidden transition-shadow cursor-pointer  duration-300   h-96  bg-white rounded" onclick="cardHandler(this)">
+                    <div  class="bg-[#F8F8F8]  h-48  px-20 py-8 m-5 flex flex-col items-center">
+                        <img src="./images/prod7.png" class="" alt="" />
+
+
+                    </div>
+
+                    <div class="py-3 space-y-2 text-center">
+
+                        <div class="start text-[#FFC107] text-base">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                          
+                           
+                            <i class="fa-regular fa-star"></i>
+                          
+                        </div>
+                        <h2 class="text-xl font-semibold">Single Relax Chair</h2>
+                      <p class="mb-2 text-xl font-normal text-[#11111180]">
+                        <span id="price"> 185.00 </span>TK
+                      </p>
+                     
+                   
+                   
+                    </div>
+                  </div>
+<!-- card2 -->
+                  <div class="overflow-hidden transition-shadow cursor-pointer  duration-300   h-96  bg-white rounded" onclick="cardHandler(this)">
+                    <div  class="bg-[#F8F8F8] h-48  px-20 py-8 m-5 flex flex-col items-center">
+                        <img src="./images/prod8.png" class="" alt="" />
+
+
+                    </div>
+
+                    <div class="py-3 space-y-2 text-center">
+
+                        <div class="start text-[#FFC107] text-base">
+                        
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+
+                         
+                          
+                        </div>
+                        <h2 class="text-xl font-semibold">Children play</h2>
+                      <p class="mb-2 text-xl font-normal text-[#11111180]">
+                        <span id="price"> 299.00  </span>TK
+                      </p>
+                     
+                   
+                   
+                    </div>
+                  </div>
+
+<!-- card3 -->
+                  <div class="overflow-hidden transition-shadow cursor-pointer  duration-300   h-96  bg-white rounded" onclick="cardHandler(this)">
+                    <div  class="bg-[#F8F8F8] h-48  px-20 py-8 m-5 flex flex-col items-center">
+                        <img src="./images/prod9.png" class="" alt="" />
+
+
+                    </div>
+
+                    <div class="py-3 space-y-2 text-center">
+
+                        <div class="start text-[#FFC107] text-base">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                       
+                        
+                          
+                        </div>
+                        <h2 class="text-xl font-semibold">Flexible Sofa</h2>
+                      <p class="mb-2 text-xl font-normal text-[#11111180]">
+                        <span id="price"> 399.00 </span>TK
+                      </p>
+                     
+                   
+                   
+                    </div>
+                  </div>
+
+
+
+                 
+                </div>
+              </div>
+
+
+
+
+        </div>
+        <!-- right -->
+        <div class="lg:w-[300px] ">
+         
+            <div class="bg-white lg:mt-40 p-6">
+                <h1 class="text-2xl font-medium mb-3">Have coupon?</h1>
+                <input id="couponField"  class="border p-3 rounded-lg" type="text" placeholder="Coupon code">
+                <button id="applyBtn" class="btn mt-1 bg-[#E527B2] text-white font-semibold " disabled>Apply</button>
+            </div>
+
+            <!-- product name  -->
+
+           <div class="bg-white mt-6 p-6">
+            <div  id="product-name-container">
+                
+            </div>
+            <hr>
+
+           <div class="space-y-5 mt-2">
+            <h1 class="text-2xl font-medium">Total Price: <span id="totalPrice" class="text-gray-300">00</span>TK</h1>
+            <h1 class="text-2xl font-medium">Discount : <span id="discount" class="text-gray-300">00</span>TK</h1>
+            <h1 class="text-2xl font-medium">Total: <span id="total" class="text-gray-300">00</span>TK</h1>
+
+<!-- make purchese modal btn -->
+            <div>
+              <label for="my_modal_7"  disabled id="purchaseBtn" class="btn mt-1 w-full mx-2 bg-[#E527B2] text-white font-semibold ">Make Purchase</label>
+  
+
+          
+              <input type="checkbox" id="my_modal_7" class="modal-toggle" />
+              <div class="modal">
+                <div class="modal-box flex flex-col justify-center items-center">
+                  <img src="./images/congo.png" alt="">
+                  <h3 class="text-5xl font-bold">Congratulations</h3>
+                  <p class="py-4 text-2xl text-[#d1d1d1]">Your Purchase the product</p>
+                  <div class="modal-action">
+
+                    <label onclick="goHome(this)" for="my_modal_7" class="btn mt-1  mx-2 bg-[#E527B2] text-white font-semibold">Go Home</label>
+                  </div>
+                </div>
+          
+  
+                <label class="modal-backdrop" for="my_modal_7">Close</label>
+              </div>
+
+
+            </div>
+
+
+           </div>
+           </div>
+        </div>
+    </div>
+
+
+
+</main>
+    <script src="./js/index.js"></script>
+</body>
+</html>
